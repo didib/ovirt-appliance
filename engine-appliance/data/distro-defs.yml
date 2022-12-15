@@ -10,8 +10,8 @@ centos-stream-8:
   packages:
     - python36
     - centos-stream-repos
-  ovirtreleaserpm: ovirt-release-master
-  ovirtreleaserpmrepo: https://download.copr.fedorainfracloud.org/results/ovirt/ovirt-master-snapshot/centos-stream-8-x86_64/
+  ovirtreleaserpm: centos-release-ovirt45-testing
+  ovirtreleaserpmrepo: https://buildlogs.centos.org/centos/8-stream/extras/x86_64/extras-common/
 
 centos-stream-9:
   url: --metalink=https://mirrors.centos.org/metalink?repo=centos-baseos-9-stream&arch=$basearch&protocol=https,http
@@ -23,5 +23,5 @@ centos-stream-9:
   packages:
     - python3
     - centos-stream-repos
-  ovirtreleaserpm: ovirt-release-master
-  ovirtreleaserpmrepo: https://download.copr.fedorainfracloud.org/results/ovirt/ovirt-master-snapshot/centos-stream-9-x86_64/
+  ovirtreleaserpm: centos-release-ovirt45-testing
+  ovirtreleaserpmrepo: https://buildlogs.centos.org/centos/9-stream/extras/x86_64/extras-common/

@@ -133,7 +133,6 @@ set -xe
 dnf repolist
 
 
-rpm --import https://download.copr.fedorainfracloud.org/results/ovirt/ovirt-master-snapshot/pubkey.gpg
 dnf --repofrompath=ovirt-release-repo,{{ data["ovirtreleaserpmrepo"] }} install -y {{ data["ovirtreleaserpm"] }}
 dnf config-manager --set-enabled powertools || true
 
